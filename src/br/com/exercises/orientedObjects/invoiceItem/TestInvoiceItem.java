@@ -15,7 +15,7 @@ public class TestInvoiceItem {
 		System.out.println("Total Value: " + invoiceItem1.getTotal());
 
 		System.out.println("\n***************** Invoice Item (2) *****************");
-		InvoiceItem invoiceItem2 = new InvoiceItem(2, "Pencil Bic", 30, 2.99);		
+		InvoiceItem invoiceItem2 = new InvoiceItem(2, "Pencil Bic Blue Color", 30, 2.99);		
 		System.out.println("ID: " + invoiceItem2.getId());
 		System.out.println("Product Description: " + invoiceItem2.getDesc());
 		System.out.println("Quantity: " + invoiceItem2.getQty());
