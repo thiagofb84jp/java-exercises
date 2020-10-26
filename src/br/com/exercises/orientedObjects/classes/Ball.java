@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.time;
+package br.com.exercises.orientedObjects.classes;
 
 public class Ball {
 

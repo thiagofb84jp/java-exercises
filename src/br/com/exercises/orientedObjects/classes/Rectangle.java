@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.rectangle;
+package br.com.exercises.orientedObjects.classes;
 
 public class Rectangle {
 

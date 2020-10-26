@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.employee;
+package br.com.exercises.orientedObjects.classes;
 
 public class Employee {
 

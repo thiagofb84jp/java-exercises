@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.yetAnotherCircle;
+package br.com.exercises.orientedObjects.classes;
 
 public class TestCircle {
 	

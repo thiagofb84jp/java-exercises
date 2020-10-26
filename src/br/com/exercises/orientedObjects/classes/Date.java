@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.date;
+package br.com.exercises.orientedObjects.classes;
 
 public class Date {
 

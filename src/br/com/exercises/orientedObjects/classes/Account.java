@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.account;
+package br.com.exercises.orientedObjects.classes;
 
 public class Account {
 

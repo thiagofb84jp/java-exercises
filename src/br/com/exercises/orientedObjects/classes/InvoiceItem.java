@@ -1,4 +1,4 @@
-package br.com.exercises.orientedObjects.invoiceItem;
+package br.com.exercises.orientedObjects.classes;
 
 public class InvoiceItem {
 	
