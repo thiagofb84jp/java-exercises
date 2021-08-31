@@ -10,5 +10,7 @@ public class Exercise01 {
 		String name = "Thiago Ferreira Barbosa!";
 
 		System.out.println("Hello\n" + name);
+		
+		System.out.println("I love to coding in Java.");
 	}
 }
