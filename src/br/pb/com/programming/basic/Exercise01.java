@@ -10,12 +10,5 @@ public class Exercise01 {
 		String name = "Thiago Ferreira Barbosa!";
 
 		System.out.println("Hello\n" + name);
-
-		displayName();
-	}
-
-	public static void displayName() {
-		for (int i = 0; i <= 10; i++) {
-		}
 	}
 }
