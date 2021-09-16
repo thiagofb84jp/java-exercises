@@ -4,7 +4,6 @@ public class Exercise16 {
 
 	/*
 	 * 16. Write a Java method to display the current date and time.
-	 * Link do exercício: https://www.w3resource.com/java-exercises/method/java-method-exercise-15.php
 	 */
 	public static void main(String[] args) {
 		long totalMilliseconds = System.currentTimeMillis();
@@ -91,14 +90,59 @@ public class Exercise16 {
 		return total;
 	}
 
-	private static int getNumOfDaysToReachThatMonth(int currentYear, int currentMonthNum) {
-		// TODO Auto-generated method stub
-		return 0;
+	private static int getNumOfDaysToReachThatMonth(int year, int month) {
+		int dayTracker = 0;
+
+		for (int i = 0; i < month; i++) {
+			dayTracker += getNumberOfDaysInMonth(year, i);
+		}
+
+		return dayTracker;
 	}
 
-	private static String getMonthName(int currentMonthNum) {
-		// TODO Auto-generated method stub
-		return null;
+	private static String getMonthName(int month) {
+		String monthName = "";
+
+		switch (month) {
+		case 1:
+			monthName = "January";
+			break;
+		case 2:
+			monthName = "February";
+			break;
+		case 3:
+			monthName = "March";
+			break;
+		case 4:
+			monthName = "April";
+			break;
+		case 5:
+			monthName = "May";
+			break;
+		case 6:
+			monthName = "June";
+			break;
+		case 7:
+			monthName = "July";
+			break;
+		case 8:
+			monthName = "August";
+			break;
+		case 9:
+			monthName = "September";
+			break;
+		case 10:
+			monthName = "October";
+			break;
+		case 11:
+			monthName = "November";
+			break;
+		case 12:
+			monthName = "December";
+			break;
+		}
+
+		return monthName;
 	}
 
 	private static int getMonthFromDays(int year, int days) {

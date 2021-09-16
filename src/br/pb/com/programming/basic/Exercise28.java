@@ -1,9 +1,6 @@
 package br.pb.com.programming.basic;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Scanner;
-import java.util.TimeZone;
 
 public class Exercise28 {
 
